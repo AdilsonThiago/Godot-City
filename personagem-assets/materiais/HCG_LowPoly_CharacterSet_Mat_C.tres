@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b6lwlgcbjdqmr"]
+
+[ext_resource type="Texture2D" uid="uid://sitxqsba67h5" path="res://personagem-assets/HCG_LowPoly_LawEnforcement_Set1_2021_10_28/HCG_LowPoly_LawEnforcement_Characters_2021_10_28-ee474424a92ab23cad25188308f1f394_lowPoly_TextureSet_C.png" id="1_wax81"]
+
+[resource]
+resource_name = "HCG_LowPoly_CharacterSet_Mat_C"
+albedo_texture = ExtResource("1_wax81")
+metallic = 0.4

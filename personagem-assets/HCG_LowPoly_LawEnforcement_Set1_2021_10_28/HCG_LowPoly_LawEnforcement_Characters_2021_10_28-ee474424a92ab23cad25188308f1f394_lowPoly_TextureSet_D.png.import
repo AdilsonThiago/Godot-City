@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://6f6tluir4xm5"
+path.s3tc="res://.godot/imported/HCG_LowPoly_LawEnforcement_Characters_2021_10_28-ee474424a92ab23cad25188308f1f394_lowPoly_TextureSet_D.png-7fcd5c80af52e7875a1a2f3694659871.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "b430613119f3619e8a22c86baff4880e"
+}
+
+[deps]
+
+source_file="res://personagem-assets/HCG_LowPoly_LawEnforcement_Set1_2021_10_28/HCG_LowPoly_LawEnforcement_Characters_2021_10_28-ee474424a92ab23cad25188308f1f394_lowPoly_TextureSet_D.png"
+dest_files=["res://.godot/imported/HCG_LowPoly_LawEnforcement_Characters_2021_10_28-ee474424a92ab23cad25188308f1f394_lowPoly_TextureSet_D.png-7fcd5c80af52e7875a1a2f3694659871.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

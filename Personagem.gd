@@ -39,9 +39,12 @@ func _physics_process(delta):
 	if direction:
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
+		$"Root Scene/AnimationPlayer".play("andando")
+		$"Root Scene".look_at(Vector3(velocity.x, 0, velocity.z) * 50)
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
+		$"Root Scene/AnimationPlayer".play("parado")
 
 	move_and_slide()
 	pass

@@ -1,0 +1,61 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dpxuvpx2cgj3y"
+path="res://.godot/imported/HCG_LowPoly_LawEnforcement_Characters_2021_10_28.fbx-ee474424a92ab23cad25188308f1f394.scn"
+
+[deps]
+
+source_file="res://personagem-assets/HCG_LowPoly_LawEnforcement_Set1_2021_10_28/HCG_LowPoly_LawEnforcement_Characters_2021_10_28.fbx"
+dest_files=["res://.godot/imported/HCG_LowPoly_LawEnforcement_Characters_2021_10_28.fbx-ee474424a92ab23cad25188308f1f394.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=false
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={
+"materials": {
+"DefaultMaterial": {
+"use_external/enabled": true,
+"use_external/path": "res://personagem-assets/materiais/DefaultMaterial.tres"
+},
+"HCG_LowPoly_CharacterSet_Mat_A": {
+"use_external/enabled": true,
+"use_external/path": "res://personagem-assets/materiais/HCG_LowPoly_CharacterSet_Mat_A.tres"
+},
+"HCG_LowPoly_CharacterSet_Mat_B": {
+"use_external/enabled": true,
+"use_external/path": "res://personagem-assets/materiais/HCG_LowPoly_CharacterSet_Mat_B.tres"
+},
+"HCG_LowPoly_CharacterSet_Mat_C": {
+"use_external/enabled": true,
+"use_external/path": "res://personagem-assets/materiais/HCG_LowPoly_CharacterSet_Mat_C.tres"
+},
+"HCG_LowPoly_CharacterSet_Mat_D": {
+"use_external/enabled": true,
+"use_external/path": "res://personagem-assets/materiais/HCG_LowPoly_CharacterSet_Mat_D.tres"
+},
+"HCG_LowPoly_CharacterSet_Mat_E": {
+"use_external/enabled": true,
+"use_external/path": "res://personagem-assets/materiais/HCG_LowPoly_CharacterSet_Mat_E.tres"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1
