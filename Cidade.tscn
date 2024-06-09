@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://ctloxpqvwo3t0"]
+[gd_scene load_steps=23 format=3 uid="uid://ctloxpqvwo3t0"]
 
 [ext_resource type="PackedScene" uid="uid://bmabyl3na76o5" path="res://Personagem.tscn" id="1_sdhr5"]
 [ext_resource type="PackedScene" uid="uid://ba651mu7d242u" path="res://cidade-objetos/rua.tscn" id="2_x3h7s"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://cmhft7rgmgs8d" path="res://cidade-objetos/building_h.tscn" id="14_nff6q"]
 [ext_resource type="PackedScene" uid="uid://cuy47qk5gx3sv" path="res://cidade-objetos/base.tscn" id="15_7ajkl"]
 [ext_resource type="PackedScene" uid="uid://c8cyfiaccbd1b" path="res://CarroPolicia.tscn" id="16_c8oi5"]
+[ext_resource type="PackedScene" uid="uid://i5h5pwlwj2gd" path="res://NPCs/Policia.tscn" id="17_ubdxy"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_p4ffi"]
 
@@ -518,3 +519,6 @@ shape = SubResource("ConcavePolygonShape3D_xtifs")
 
 [node name="VehicleBody3D" parent="." instance=ExtResource("16_c8oi5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, -15)
+
+[node name="Personagem2" parent="." instance=ExtResource("17_ubdxy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 2, -15)

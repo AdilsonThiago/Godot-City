@@ -33,7 +33,8 @@ func _input(event):
 		get_parent().add_child(obj)
 		obj.position = position + Vector3(0, 1, 0)
 		set_process_input(false)
-		$Clipe/SpringArm3D/Camera3D.current = true
+		$Clipe/SpringArm3D/Camera3D.current = false
+		Singleton.ponteiroPerson(obj)
 
 	if event.is_action_pressed("ui_cancel"):
 		get_tree().quit()
