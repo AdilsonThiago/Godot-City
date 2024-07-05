@@ -159,3 +159,4 @@ spring_length = -10.0
 
 [node name="Camera3D" type="Camera3D" parent="Clipe/SpringArm3D"]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+far = 70.0
